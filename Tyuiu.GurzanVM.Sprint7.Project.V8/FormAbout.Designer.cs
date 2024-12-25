@@ -52,6 +52,8 @@
             panelMY_GVM.Name = "panelMY_GVM";
             panelMY_GVM.Size = new Size(668, 397);
             panelMY_GVM.TabIndex = 3;
+            panelMY_GVM.MouseDown += panelMY_GVM_MouseDown;
+            panelMY_GVM.MouseMove += panelMY_GVM_MouseMove;
             // 
             // panel1
             // 
@@ -72,6 +74,8 @@
             labelMY_GVM.TabIndex = 0;
             labelMY_GVM.Text = "О программе";
             labelMY_GVM.TextAlign = ContentAlignment.TopCenter;
+            labelMY_GVM.MouseDown += labelMY_GVM_MouseDown;
+            labelMY_GVM.MouseMove += labelMY_GVM_MouseMove;
             // 
             // buttonOK_GVM
             // 
